@@ -1,0 +1,28 @@
+
+
+
+.grid-item{
+    padding:20px;
+}
+
+
+
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+    background-color: red;
+}
+.item-3{
+    background-color: blue;
+}
+.item-4{
+    background-color: blueviolet;
+}
+.item-5{
+    background-color: yellow;
+}
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
